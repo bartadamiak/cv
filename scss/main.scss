@@ -1,0 +1,83 @@
+@import "grid.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: gray;
+   
+}
+
+.row {
+    display: flex;
+}
+
+.col-4-12 {
+    width: 33.33333%;
+    margin: 0;
+    padding: 0;
+}
+
+.col-8-12 {
+    width: 66.66666%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.first {
+    margin: 0 auto;
+
+}
+
+
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.photo {
+    background: url('../images/mecenas.jpg');
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.profil {
+    padding: 20px;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.full-name {
+    padding-top: 20px;
+    font-size: 3rem;
+    padding-bottom: 30px;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: inherit;
+}
