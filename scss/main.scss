@@ -35,6 +35,7 @@ body {
 .container {
     width: 100%;
     max-width: 1200px;
+    margin: 0 auto
 }
 
 .first {
@@ -86,4 +87,14 @@ body {
     margin: 20px;
     text-align: center;
     color: inherit;
+}
+
+///// Second section \\\\\\\
+
+.projects {
+    list-style: none;
+}
+
+.projects li {
+    margin: 20px auto;
 }
